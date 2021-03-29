@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- This is the first, smallest column -->
+            <div class="col-2 sec1">
+                <div class="welcome">
+                    <i class="bi bi-twitch"> Welcome Back, Yen</i>
+                </div>
+                <!-- Button not aligning despite d-flex & align-middle classes? -->
+                <div><button type="button" class="btn btn-warning d-flex align-middle">COMPOSE</button>
+                </div>
+                <div class="categories">
+                    <button class="subcategories">Inbox (1)</button>
+                    <button class="subcategories">Tagged</button>
+                    <button class="subcategories">Important</button>
+                    <button class="subcategories">Sent Mail</button>
+                    <button class="subcategories">Drafts</button>
+                    <button class="subcategories">Trash</button>
+                </div>
+            </div>
+
+            <!-- This is the second, middle column -->
+            <div class="col-3 sec2">
+                <div>
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search for emails" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                <div class="email">
+                    <div class="email-topline">
+                        <div class="email-title">Cardano Viability Update</div>
+                        <div class="email-date">02:45pm</div>
+                    </div>
+                    <div class="email-content">Lorem ipsum dolor sit amet consetetur</div>
+                </div>
+                <div class="email">
+                    <div class="email-topline">
+                        <div class="email-title">Bitcoin Regional Energy Metric</div>
+                        <div class="email-date">Feb 27, 2021</div>
+                    </div>
+                    <div class="email-content">Lorem ipsum dolor sit amet consetetur</div>
+                </div>
+                <div class="email">
+                    <div class="email-topline">
+                        <div class="email-title">Tesla Solar Roof Tile Feasibility</div>
+                        <div class="email-date">Jan 29, 2021</div>
+                    </div>
+                    <div class="email-content">Lorem ipsum dolor sit amet consetetur</div>
+                </div>
+                <div class="email" id="highlighted">
+                    <div class="email-topline">
+                        <div class="email-title">YouTubers Popularity Metric</div>
+                        <div class=email-date>Jan 13, 2021</div>
+                    </div>
+                    <div class="email-content">Lorem ipsum dolor sit amet consetetur</div>
+                </div>
+            </div>
+
+            <!-- This is the third & largest column -->
+            <div class="col-7 sec3 bg-white">
+                <div class="col7-header">
+                    <p>To: charleshoskinson@gmail.com</p>
+                    <p>From: re-reply.oroboros@sbcglobal.net</p>
+                </div>
+                <div class="email-title">
+                    <p>YouTubers Popularity Metric</p>
+                </div>
+                <div class="e-content">
+                    <p>Anthony Pompliano, an American entrepreneur and investor. He has built and sold numerous companies, ran Product & Growth teams at Facebook and Snapchat, and invested over $100 million in early stage technology companies.</p>
+                    <p>Meet Kevin, 29-year-old real estate broker & investor working daily in real estate & construction fields since 17 years old now owning over $20,000,000 in real estate $20,000,000 in stocks.</p>
+                    <p>Graham Stephan, a 30 year old real estate agent and investor who started working in real estate shortly after turning 18, with over $120,000,000 in residential real estate sales since 2008, has since created this channel to share his
+                        successes, failures, and experiences in the real estate industry and to support others who are thinking of getting into the business.</p>
+                </div>
+                <div class="replybox">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" rows="6"></textarea>
+                    <button id="reply">Reply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+.sec1,
+.sec2,
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn-warning {
+    font-size: 75%;
+    color: rgb(255, 246, 246);
+    width: 100px;
+}
+
+.welcome {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.categories {
+    color: rgb(255, 246, 246);
+    display: flex;
+    flex-direction: column;
+    line-height: 300%;
+}
+
+.categories:hover {
+    color: white;
+    background-color: white;
+}
+
+.col-2 {
+    background-color: #ABE6CE;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.email:hover {
+    background-color: white;
+}
+
+#highlighted {
+    background-color: white;
+}
+
+.col-3 {
+    background-color: #DCEDC2;
+}
+
+.col-7 {
+    background-color: #FFD3D5;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.col7-header {
+    padding-top: 10px;
+    line-height: 3.5px;
+}
+
+.email-title {
+    font: 1.4em "Fira Sans", sans-serif;
+}
+
+.e-content {
+    font: 1em "monospace", courier-new;
+}
+
+.replybox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
