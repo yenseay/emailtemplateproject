@@ -15,13 +15,11 @@
     <div class="container-fluid">
         <div class="row">
             <!-- This is the first, smallest column -->
-            <div class="col-2 sec1">
+            <div class="col-sm-12 col-md-4 col-lg-2 sec1">
                 <div class="welcome">
                     <i class="bi bi-twitch"> Welcome Back, Yen</i>
                 </div>
-                <!-- Button not aligning despite d-flex & align-middle classes? -->
-                <div><button type="button" class="btn btn-warning d-flex align-middle">COMPOSE</button>
-                </div>
+                <div class="composebutton"><button type="button" id="firstbutton" class="btn btn-warning">COMPOSE</button></div>
                 <div class="categories">
                     <button class="subcategories">Inbox (1)</button>
                     <button class="subcategories">Tagged</button>
@@ -33,9 +31,9 @@
             </div>
 
             <!-- This is the second, middle column -->
-            <div class="col-3 sec2">
+            <div class="col-sm-12 col-md-4 col-lg-3 sec2">
                 <div>
-                    <nav class="navbar navbar-light bg-light">
+                    <nav class="navbar navbar-light">
                         <div class="container-fluid">
                             <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Search for emails" aria-label="Search">
@@ -75,10 +73,10 @@
             </div>
 
             <!-- This is the third & largest column -->
-            <div class="col-7 sec3 bg-white">
+            <div class="col-sm-12 col-md-4 col-lg-7 sec3 bg-white">
                 <div class="col7-header">
-                    <p>To: charleshoskinson@gmail.com</p>
-                    <p>From: re-reply.oroboros@sbcglobal.net</p>
+                    <p class="subjectmaterial">To: charleshoskinson@gmail.com</p>
+                    <p class="subjectmaterial">From: re-reply.oroboros@sbcglobal.net</p>
                 </div>
                 <div class="email-title">
                     <p>YouTubers Popularity Metric</p>

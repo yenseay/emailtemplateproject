@@ -1,3 +1,5 @@
+/* Repo V. 2 test */
+
 .sec1,
 .sec2,
 .sec3 {
@@ -6,10 +8,21 @@
     height: 100vh;
 }
 
+html {
+    min-height: 100vh;
+}
+
+#firstbutton {}
+
 .btn-warning {
     font-size: 75%;
-    color: rgb(255, 246, 246);
     width: 100px;
+    font-weight: 700;
+    color: rgb(3, 3, 58);
+}
+
+.subcategories:hover {
+    background-color: orange;
 }
 
 .welcome {
@@ -22,6 +35,7 @@
     display: flex;
     flex-direction: column;
     line-height: 300%;
+    max-width: 270px;
 }
 
 .categories:hover {
@@ -29,7 +43,7 @@
     background-color: white;
 }
 
-.col-2 {
+.sec1 {
     background-color: #ABE6CE;
 }
 
@@ -37,6 +51,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-bottom: 10px;
 }
 
 .email:hover {
@@ -47,20 +62,21 @@
     background-color: white;
 }
 
-.col-3 {
+.sec2 {
     background-color: #DCEDC2;
 }
 
-.col-7 {
+.email-topline {
+    display: flex;
+}
+
+.sec-3 {
     background-color: #FFD3D5;
     padding-left: 75px;
     padding-right: 75px;
 }
 
-.col7-header {
-    padding-top: 10px;
-    line-height: 3.5px;
-}
+.col7-header {}
 
 .email-title {
     font: 1.4em "Fira Sans", sans-serif;
@@ -74,4 +90,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+#reply {
+    position: relative;
+    bottom: 30px;
+}
+
+.bi-paperclip {
+    position: relative;
+    bottom: 56px;
+    right: 293px;
+    color: gray;
+}
+
+.subjectmaterial {
+    margin: 0;
 }
